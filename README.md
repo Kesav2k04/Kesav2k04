@@ -215,7 +215,6 @@ class KesavKumarJ:
 | 🎤 | **IEEE ICCET 2026 — Chennai** | Co-authored & presented VisualPC paper; IEEE proceedings in progress |
 | 🏆 | **NPTEL Java Programming — Top 5%** | Ranked in the top 5% among **14,693 candidates** nationally; Elite + Silver badge |
 | 🇮🇳 | **MSME Idea Hackathon 4.0 — Govt. of India** | Selected for government-funded research initiative; grant of **₹13.5 Lakhs** |
-| 🌐 | **IELTS Academic — Band 6.5 (CEFR B2)** | Demonstrates strong English proficiency for international graduate programs |
 | 🤖 | **NVIDIA AI Fundamentals — 2024** | Completed "Getting Started with AI on Jetson Nano" & "Fundamentals of Deep Learning" (edge AI + neural networks) |
 | ☕ | **Programming in Java (Elite + Silver) — NPTEL 2024** | Advanced OOP proficiency validated at national level |
 | 📡 | **IEEE Student Member + IEEE Computer Society** | Active member since May 2026 |
