@@ -1,7 +1,7 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kesav%20Kumar%20J&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=VLM%20Researcher%20%7C%20Cloud%20%26%20DevOps%20Engineer%20%7C%20IEEE%20Member%20%7C%20Incoming%20MS%20CS%20%40%20NEU%202026&descAlignY=62&descSize=15)
+![header](https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=180&amp;section=header&amp;text=Kesav%20Kumar%20J&amp;fontSize=42&amp;fontColor=fff&amp;animation=twinkling&amp;fontAlignY=32&amp;desc=VLM%20Researcher%20%7C%20Cloud%20%26%20DevOps%20Engineer%20%7C%20IEEE%20Member%20%7C%20Incoming%20MS%20CS%20NEU%202026&amp;descAlignY=62&amp;descSize=15)
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=VLM+Evaluation+Researcher+%7C+ArXiv+%282026%29;Cloud+%26+Edge+PaaS+%7C+IEEE+ICCET+2026;Govt-Funded+ML+Researcher+%7C+MSME+%E2%82%B913.5L;Top+5%25+NPTEL+Java+%7C+IEEE+Student+Member" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=26&amp;duration=3000&amp;pause=1000&amp;color=70A5FD&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=VLM+Evaluation+Researcher+%7C+ArXiv+%282026%29;Cloud+%26+Edge+PaaS+%7C+IEEE+ICCET+2026;Govt-Funded+ML+Researcher+%7C+MSME+%E2%82%B913.5L;Top+5%25+NPTEL+Java+%7C+IEEE+Student+Member" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -115,8 +115,8 @@ class KesavKumarJ:
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="495" height="195"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="380" height="195"/>
 </p>
 
 ---
@@ -124,27 +124,29 @@ class KesavKumarJ:
 ## 🔥 Streak Stats
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=Kesav2k04&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak" width="60%"/>
+<img src="https://streak-stats.demolab.com?user=Kesav2k04&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak" width="600" height="150"/>
 </p>
 
 ---
 
 ## 📈 Activity Graph
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Activity Graph" width="900"/>
+</p>
 
 ---
 
-## 🏆 Milestones & Highlights
+## 🏆 Milestones
 
 <p align="center">
 <img src="https://img.shields.io/badge/Total%20Contributions-129%2B-70a5fd?style=for-the-badge&logo=github&logoColor=white" alt="contributions"/>
 <img src="https://img.shields.io/badge/Research%20Papers-2%20(ArXiv%20%2B%20IEEE)-bf91f3?style=for-the-badge&logo=arxiv&logoColor=white" alt="papers"/>
-<img src="https://img.shields.io/badge/Govt%20Grant-₹13.5%20Lakhs-38bdae?style=for-the-badge&logo=googlescholar&logoColor=white" alt="grant"/>
+<img src="https://img.shields.io/badge/Govt%20Grant-%E2%82%B913.5%20Lakhs-38bdae?style=for-the-badge&logo=googlescholar&logoColor=white" alt="grant"/>
 <img src="https://img.shields.io/badge/NPTEL%20Java-Top%205%25%20of%2014%2C693-c9d1d9?style=for-the-badge&logo=openjdk&logoColor=black" alt="nptel"/>
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/IELTS-Band%206.5%20(CEFR%20B2)-70a5fd?style=for-the-badge&logo=googletranslate&logoColor=white" alt="ielts"/>
+<img src="https://img.shields.io/badge/IELTS-Band%206.5%20CEFR%20B2-70a5fd?style=for-the-badge&logo=googletranslate&logoColor=white" alt="ielts"/>
 <img src="https://img.shields.io/badge/IEEE-Student%20%2B%20CS%20Member-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="ieee"/>
 <img src="https://img.shields.io/badge/CGPA-8.31%20%2F%2010-bf91f3?style=for-the-badge&logo=academia&logoColor=white" alt="cgpa"/>
 <img src="https://img.shields.io/badge/GitHub%20Since-Oct%202022-38bdae?style=for-the-badge&logo=githubactions&logoColor=white" alt="since"/>
@@ -199,9 +201,9 @@ class KesavKumarJ:
 
 | Project | Stack | Highlights |
 |:--------|:------|:-----------|
-| [**🔬 ugaa-research**](https://github.com/Kesav2k04/ugaa-research) — VLM Benchmark Audit | Python · LLaVA · POPE · PyTorch | Lead author; audited **9,000 POPE evaluations** across 5 VLMs; identified tokenizer-dependent confound shifting F1 by **6.13 points** without model changes; corrected adversarial F1 baseline: **82.21**; arXiv submission in progress |
-| [**🖥️ VisualPC**](https://github.com/Kesav2k04/visualpc) — Cloud-Edge PaaS | FastAPI · PyTorch · Next.js · Docker · Tailscale · AWS EC2 · Raspberry Pi | Distributed GPU execution framework; core finding: **orchestration overhead dominates latency**; presented at **IEEE ICCET 2026** Chennai; IEEE proceedings in progress; live → [visualpc.vercel.app](https://visualpc.vercel.app) |
-| [**👗 Rentique**](https://github.com/Kesav2k04/Rentique) — Cloth Renting Platform | React.js · Spring Boot · MySQL · JMeter | Full-stack marketplace aligned with **UN SDG 12**; UI tested across **8+ device resolutions** (320px–1920px); REST APIs at **<250ms latency** under 30 concurrent users; live → [rentique-1-4yhf.onrender.com](https://rentique-1-4yhf.onrender.com) |
+| [**🔬 ugaa-research**](https://github.com/Kesav2k04/ugaa-research) | Python · LLaVA · POPE · PyTorch | Lead author. 9,000 POPE evaluations across 5 VLMs. Tokenizer-dependent confound shifts F1 by **6.13 points** with zero model changes. Corrected adversarial baseline: **82.21 F1**. ArXiv submission in progress. |
+| [**🖥️ VisualPC**](https://github.com/Kesav2k04/visualpc) | FastAPI · PyTorch · Next.js · Docker · Tailscale · AWS · Raspberry Pi | Distributed GPU execution framework across cloud and edge nodes. Core finding: orchestration overhead dominates latency, not GPU execution. Presented at **IEEE ICCET 2026** Chennai. Live: [visualpc.vercel.app](https://visualpc.vercel.app) |
+| [**👗 Rentique**](https://github.com/Kesav2k04/Rentique) | React.js · Spring Boot · MySQL · JMeter | Full-stack clothing rental marketplace. UN SDG 12. Responsive across **8+ device resolutions**. REST APIs at **under 250ms latency** under 30 concurrent users in JMeter tests. Live: [rentique-1-4yhf.onrender.com](https://rentique-1-4yhf.onrender.com) |
 
 ---
 
@@ -209,15 +211,15 @@ class KesavKumarJ:
 
 | | Achievement | Details |
 |:-:|:------------|:--------|
-| 📄 | **ArXiv Pre-print (2026)** | Lead author — VLM benchmark audit; 9,000-evaluation study across LLaVA-1.5, LLaVA-1.6, InstructBLIP, mPLUG-Owl2, Qwen2-VL |
-| 🎤 | **IEEE ICCET 2026 — Chennai** | Co-authored & presented VisualPC distributed GPU framework paper; IEEE proceedings in progress |
-| 🏆 | **NPTEL Java Programming — Top 5%** | Ranked top 5% among **14,693 candidates** nationally; Elite + Silver badge |
-| 🇮🇳 | **MSME Idea Hackathon 4.0 — Govt. of India** | Selected for government-funded research; grant of **₹13.5 Lakhs** |
-| 🤖 | **NVIDIA AI Fundamentals — 2024** | Completed "Getting Started with AI on Jetson Nano" & "Fundamentals of Deep Learning" |
-| 📡 | **IEEE Student Member + IEEE Computer Society** | Active member since May 2026 |
-| 🏅 | **Finalist — Dynamix & Mystery Quest** | Inter-college technical & innovation contests |
-| 🌿 | **Sardar Unity Trinity Quiz — MyGov** | Certificate awarded by MyGov CEO Shri Akash Tripathi (Azadi Ka Amrit Mahotsav) |
-| 🌱 | **Kriya 2024 — National Level Technical Symposium** | PSG College of Technology; powered by KLA, co-sponsored by Societe Generale & Vites Technologies |
+| 📄 | **ArXiv Pre-print (2026)** | Lead author. VLM benchmark audit across LLaVA-1.5, LLaVA-1.6, InstructBLIP, mPLUG-Owl2, Qwen2-VL. 9,000 evaluations. |
+| 🎤 | **IEEE ICCET 2026, Chennai** | Co-authored and presented the VisualPC distributed GPU framework paper. IEEE proceedings in progress. |
+| 🏆 | **NPTEL Java Programming, Top 5%** | Top 5% among **14,693 candidates** nationally. Elite + Silver badge. |
+| 🇮🇳 | **MSME Idea Hackathon 4.0, Govt. of India** | Selected for government-funded research. Grant of **₹13.5 Lakhs**. |
+| 🤖 | **NVIDIA AI Fundamentals, 2024** | Completed Getting Started with AI on Jetson Nano and Fundamentals of Deep Learning. |
+| 📡 | **IEEE Student Member + IEEE Computer Society** | Active member since May 2026. |
+| 🏅 | **Finalist, Dynamix and Mystery Quest** | Inter-college technical and innovation contests. Solved programming and networking problems under time constraints. |
+| 🌿 | **Sardar Unity Trinity Quiz, MyGov** | Certificate awarded by MyGov CEO Shri Akash Tripathi during Azadi Ka Amrit Mahotsav. |
+| 🌱 | **Kriya 2024, National Level Technical Symposium** | PSG College of Technology. Powered by KLA, co-sponsored by Societe Generale and Vites Technologies. |
 
 ---
 
@@ -225,7 +227,7 @@ class KesavKumarJ:
 
 | Degree | Institution | Period | Score |
 |:-------|:-----------|:-------|:------|
-| B.Tech — Information Technology | Sri Krishna College of Technology, Coimbatore | Oct 2022 – Apr 2026 | **CGPA: 8.31 / 10** |
+| B.Tech in Information Technology | Sri Krishna College of Technology, Coimbatore | Oct 2022 – Apr 2026 | **CGPA: 8.31 / 10** |
 | Higher Secondary Certificate (HSC) | Lisieux Matric Higher Secondary School, Coimbatore | Jun 2020 – May 2022 | **90.5%** |
 
 ---
@@ -233,12 +235,12 @@ class KesavKumarJ:
 ## 🧠 Currently Learning
 
 ```
-🔬 VLM Evaluation Methodology  →  POPE audits, tokenizer analysis, F1 confounds, cross-model validation
-🕸️ Graph Neural Networks        →  GNN for social network fraud detection, node classification
-☸️  Kubernetes                  →  Container orchestration, Helm charts, multi-node deployments
-🔥 PyTorch Advanced Patterns    →  Custom training loops, distributed training, model quantization
-🧮 LLM Research & Alignment     →  Benchmark construction, hallucination evaluation, arXiv workflows
-📦 Cloud-Native Architecture    →  Microservices, event-driven systems, edge-cloud continuum
+🔬 VLM Evaluation Methodology  ->  POPE audits, tokenizer analysis, F1 confounds, cross-model validation
+GNN Graph Neural Networks      ->  GNN for social network fraud detection, node classification
+Kubernetes                     ->  Container orchestration, Helm charts, multi-node deployments
+PyTorch Advanced Patterns      ->  Custom training loops, distributed training, model quantization
+LLM Research and Alignment     ->  Benchmark construction, hallucination evaluation, arXiv workflows
+Cloud-Native Architecture      ->  Microservices, event-driven systems, edge-cloud continuum
 ```
 
 ---
@@ -254,9 +256,9 @@ class KesavKumarJ:
 &nbsp;
 <a href="https://visualpc.vercel.app"><img src="https://img.shields.io/badge/VisualPC-visualpc.vercel.app-38BDAE?style=flat-square&logo=vercel&logoColor=white" alt="visualpc"/></a>
 &nbsp;
-<a href="https://rentique-1-4yhf.onrender.com"><img src="https://img.shields.io/badge/Rentique-rentique--1--4yhf.onrender.com-BF91F3?style=flat-square&logo=render&logoColor=white" alt="rentique"/></a>
+<a href="https://rentique-1-4yhf.onrender.com"><img src="https://img.shields.io/badge/Rentique-Live-BF91F3?style=flat-square&logo=render&logoColor=white" alt="rentique"/></a>
 </p>
 
 <p align="center"><i>📍 Coimbatore, Tamil Nadu, India &nbsp;|&nbsp; 📞 +91 9080625542 &nbsp;|&nbsp; 🎓 Incoming MS CS @ Northeastern University 2026</i></p>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
+![footer](https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=120&amp;section=footer&amp;animation=twinkling)
