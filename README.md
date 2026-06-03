@@ -106,22 +106,10 @@ class KesavKumarJ:
 
 ## 📊 GitHub Stats
 
-<!-- ============================================================
-  IMPORTANT: The public github-readme-stats.vercel.app instance
-  is shared by millions of users and hits GitHub API rate limits.
-  
-  PERMANENT FIX (5 minutes, free):
-  1. Fork https://github.com/anuraghazra/github-readme-stats
-  2. Go to vercel.com → New Project → Import your fork
-  3. Add env variable: PAT_1 = your GitHub token (Settings > Developer Settings > Tokens > Classic > read:user + repo scopes)
-  4. Deploy → copy your URL (e.g. github-readme-stats-kesav2k04.vercel.app)
-  5. Replace "github-readme-stats.vercel.app" below with YOUR URL
-  After that, stats will NEVER rate-limit again.
-================================================================ -->
-
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="495" height="195"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="380" height="195"/>
+<img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="495" height="195"/>
+
+<img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="380" height="195"/>
 </p>
 
 ---
