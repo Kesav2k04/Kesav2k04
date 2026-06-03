@@ -1,11 +1,11 @@
-![header](https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=180&amp;section=header&amp;text=Kesav%20Kumar%20J&amp;fontSize=42&amp;fontColor=fff&amp;animation=twinkling&amp;fontAlignY=32&amp;desc=VLM%20Researcher%20%7C%20Cloud%20%26%20DevOps%20Engineer%20%7C%20IEEE%20Member%20%7C%20Incoming%20MS%20CS%20NEU%202026&amp;descAlignY=62&amp;descSize=15)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kesav%20Kumar%20J&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=VLM%20Researcher%20%7C%20Cloud%20%2B%20DevOps%20Engineer%20%7C%20IEEE%20Member%20%7C%20MS%20CS%20NEU%202026&descAlignY=62&descSize=15)
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=26&amp;duration=3000&amp;pause=1000&amp;color=70A5FD&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=VLM+Evaluation+Researcher+%7C+ArXiv+%282026%29;Cloud+%26+Edge+PaaS+%7C+IEEE+ICCET+2026;Govt-Funded+ML+Researcher+%7C+MSME+%E2%82%B913.5L;Top+5%25+NPTEL+Java+%7C+IEEE+Student+Member" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=VLM+Evaluation+Researcher+%7C+ArXiv+%282026%29;Cloud+%2B+Edge+PaaS+%7C+IEEE+ICCET+2026;Govt-Funded+ML+Researcher+%7C+MSME+%E2%82%B913.5L;Top+5%25+NPTEL+Java+%7C+IEEE+Student+Member" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=Kesav2k04&style=flat-square&color=70a5fd&label=Profile+Views" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=Kesav2k04&style=flat-square&color=70a5fd&label=Profile+Views" alt="views"/>
 &nbsp;
 <a href="https://www.linkedin.com/in/kesav-kumar-j-5414aa253/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
@@ -30,7 +30,7 @@ class KesavKumarJ:
     location   = "Coimbatore, Tamil Nadu, India 🇮🇳"
     email      = "kesavk659@gmail.com"
     phone      = "+91 9080625542"
-    degree     = "B.Tech Information Technology (2022–2026)"
+    degree     = "B.Tech Information Technology (2022-2026)"
     college    = "Sri Krishna College of Technology"
     cgpa       = "8.31 / 10  (up to Sem 7)"
     github     = "github.com/Kesav2k04"
@@ -52,11 +52,11 @@ class KesavKumarJ:
     currently_learning = [
         "Graph Neural Networks",
         "LLM Evaluation Methodology",
-        "Kubernetes & Container Orchestration",
+        "Kubernetes + Container Orchestration",
         "PyTorch Advanced Patterns"
     ]
 
-    fun_fact = "I found a 6.13 F1-point ghost in a published VLM benchmark 👻"
+    fun_fact = "I found a 6.13 F1-point ghost in a published VLM benchmark"
 
     def motto(self):
         return "Measure first. Build right. Ship with proof."
@@ -75,48 +75,53 @@ class KesavKumarJ:
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**Frameworks & Libraries**
+**Frameworks**
 
 ![React](https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
-**Cloud & DevOps**
+**Cloud + DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-5B4FE9?style=flat-square&logo=tailscale&logoColor=white)
 
-**Databases**
+**Databases + Tools**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-**Tools**
-
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![JMeter](https://img.shields.io/badge/JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 
 ---
 
 ## 📊 GitHub Stats
 
+<!-- ============================================================
+  IMPORTANT: The public github-readme-stats.vercel.app instance
+  is shared by millions of users and hits GitHub API rate limits.
+  
+  PERMANENT FIX (5 minutes, free):
+  1. Fork https://github.com/anuraghazra/github-readme-stats
+  2. Go to vercel.com → New Project → Import your fork
+  3. Add env variable: PAT_1 = your GitHub token (Settings > Developer Settings > Tokens > Classic > read:user + repo scopes)
+  4. Deploy → copy your URL (e.g. github-readme-stats-kesav2k04.vercel.app)
+  5. Replace "github-readme-stats.vercel.app" below with YOUR URL
+  After that, stats will NEVER rate-limit again.
+================================================================ -->
+
 <p align="center">
-<img src="https://github-readme-stats-kesav2k04.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="495" height="195"/>
-<img src="https://github-readme-stats-kesav2k04.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="380" height="195"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="495" height="195"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="380" height="195"/>
 </p>
 
 ---
@@ -141,7 +146,7 @@ class KesavKumarJ:
 
 <p align="center">
 <img src="https://img.shields.io/badge/Total%20Contributions-129%2B-70a5fd?style=for-the-badge&logo=github&logoColor=white" alt="contributions"/>
-<img src="https://img.shields.io/badge/Research%20Papers-2%20(ArXiv%20%2B%20IEEE)-bf91f3?style=for-the-badge&logo=arxiv&logoColor=white" alt="papers"/>
+<img src="https://img.shields.io/badge/Research%20Papers-ArXiv%20%2B%20IEEE-bf91f3?style=for-the-badge&logo=arxiv&logoColor=white" alt="papers"/>
 <img src="https://img.shields.io/badge/Govt%20Grant-%E2%82%B913.5%20Lakhs-38bdae?style=for-the-badge&logo=googlescholar&logoColor=white" alt="grant"/>
 <img src="https://img.shields.io/badge/NPTEL%20Java-Top%205%25%20of%2014%2C693-c9d1d9?style=for-the-badge&logo=openjdk&logoColor=black" alt="nptel"/>
 </p>
@@ -201,9 +206,9 @@ class KesavKumarJ:
 
 | Project | Stack | Highlights |
 |:--------|:------|:-----------|
-| [**🔬 ugaa-research**](https://github.com/Kesav2k04/ugaa-research) | Python · LLaVA · POPE · PyTorch | Lead author. 9,000 POPE evaluations across 5 VLMs. Tokenizer-dependent confound shifts F1 by **6.13 points** with zero model changes. Corrected adversarial baseline: **82.21 F1**. ArXiv submission in progress. |
-| [**🖥️ VisualPC**](https://github.com/Kesav2k04/visualpc) | FastAPI · PyTorch · Next.js · Docker · Tailscale · AWS · Raspberry Pi | Distributed GPU execution framework across cloud and edge nodes. Core finding: orchestration overhead dominates latency, not GPU execution. Presented at **IEEE ICCET 2026** Chennai. Live: [visualpc.vercel.app](https://visualpc.vercel.app) |
-| [**👗 Rentique**](https://github.com/Kesav2k04/Rentique) | React.js · Spring Boot · MySQL · JMeter | Full-stack clothing rental marketplace. UN SDG 12. Responsive across **8+ device resolutions**. REST APIs at **under 250ms latency** under 30 concurrent users in JMeter tests. Live: [rentique-1-4yhf.onrender.com](https://rentique-1-4yhf.onrender.com) |
+| [**🔬 ugaa-research**](https://github.com/Kesav2k04/ugaa-research) | Python · LLaVA · POPE · PyTorch | Lead author. 9,000 POPE evaluations across 5 VLMs. Tokenizer confound shifts F1 by **6.13 points** with zero model changes. Corrected adversarial baseline: **82.21 F1**. ArXiv in progress. |
+| [**🖥️ VisualPC**](https://github.com/Kesav2k04/visualpc) | FastAPI · PyTorch · Next.js · Docker · Tailscale · AWS · Raspberry Pi | Distributed GPU execution framework. Core finding: orchestration overhead dominates latency. Presented at **IEEE ICCET 2026** Chennai. Live: [visualpc.vercel.app](https://visualpc.vercel.app) |
+| [**👗 Rentique**](https://github.com/Kesav2k04/Rentique) | React.js · Spring Boot · MySQL · JMeter | Full-stack clothing rental marketplace aligned with UN SDG 12. Responsive across **8+ device resolutions**. REST APIs at **under 250ms latency** under 30 concurrent users. Live: [rentique-1-4yhf.onrender.com](https://rentique-1-4yhf.onrender.com) |
 
 ---
 
@@ -217,9 +222,9 @@ class KesavKumarJ:
 | 🇮🇳 | **MSME Idea Hackathon 4.0, Govt. of India** | Selected for government-funded research. Grant of **₹13.5 Lakhs**. |
 | 🤖 | **NVIDIA AI Fundamentals, 2024** | Completed Getting Started with AI on Jetson Nano and Fundamentals of Deep Learning. |
 | 📡 | **IEEE Student Member + IEEE Computer Society** | Active member since May 2026. |
-| 🏅 | **Finalist, Dynamix and Mystery Quest** | Inter-college technical and innovation contests. Solved programming and networking problems under time constraints. |
+| 🏅 | **Finalist, Dynamix and Mystery Quest** | Inter-college technical and innovation contests. |
 | 🌿 | **Sardar Unity Trinity Quiz, MyGov** | Certificate awarded by MyGov CEO Shri Akash Tripathi during Azadi Ka Amrit Mahotsav. |
-| 🌱 | **Kriya 2024, National Level Technical Symposium** | PSG College of Technology. Powered by KLA, co-sponsored by Societe Generale and Vites Technologies. |
+| 🌱 | **Kriya 2024, National Level Technical Symposium** | PSG College of Technology; co-sponsored by Societe Generale and Vites Technologies. |
 
 ---
 
@@ -235,17 +240,17 @@ class KesavKumarJ:
 ## 🧠 Currently Learning
 
 ```
-🔬 VLM Evaluation Methodology  ->  POPE audits, tokenizer analysis, F1 confounds, cross-model validation
-GNN Graph Neural Networks      ->  GNN for social network fraud detection, node classification
-Kubernetes                     ->  Container orchestration, Helm charts, multi-node deployments
-PyTorch Advanced Patterns      ->  Custom training loops, distributed training, model quantization
-LLM Research and Alignment     ->  Benchmark construction, hallucination evaluation, arXiv workflows
-Cloud-Native Architecture      ->  Microservices, event-driven systems, edge-cloud continuum
+VLM Evaluation Methodology  ->  POPE audits, tokenizer analysis, F1 confounds, cross-model validation
+Graph Neural Networks        ->  Social network fraud detection, node classification
+Kubernetes                   ->  Container orchestration, Helm charts, multi-node deployments
+PyTorch Advanced Patterns    ->  Custom training loops, distributed training, quantization
+LLM Research                 ->  Benchmark construction, hallucination evaluation, arXiv workflows
+Cloud-Native Architecture    ->  Microservices, event-driven systems, edge-cloud continuum
 ```
 
 ---
 
-## 📬 Connect With Me
+## 📬 Connect
 
 <p align="center">
 <a href="mailto:kesavk659@gmail.com"><img src="https://img.shields.io/badge/Email-kesavk659%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="email"/></a>
@@ -261,4 +266,4 @@ Cloud-Native Architecture      ->  Microservices, event-driven systems, edge-clo
 
 <p align="center"><i>📍 Coimbatore, Tamil Nadu, India &nbsp;|&nbsp; 📞 +91 9080625542 &nbsp;|&nbsp; 🎓 Incoming MS CS @ Northeastern University 2026</i></p>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;customColorList=6,11,20&amp;height=120&amp;section=footer&amp;animation=twinkling)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
