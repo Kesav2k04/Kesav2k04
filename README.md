@@ -104,23 +104,21 @@ class KesavKumarJ:
 
 ---
 
-## 📊 GitHub Stats & Streaks
+## 📊 GitHub Analytics
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" alt="Kesav GitHub Stats" width="100%"/>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" alt="Top Languages" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" style="padding-top: 10px;">
-      <img src="https://streak-stats.demolab.com?user=Kesav2k04&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" alt="GitHub Streak" width="100%"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10&cache_seconds=86400" height="195" alt="Kesav GitHub Stats" />
+  <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10&cache_seconds=86400" height="195" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Kesav2k04&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" width="845" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://vercel.app" width="845" alt="Activity Graph" />
+</p>
+
 
 ---
 
