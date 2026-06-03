@@ -116,16 +116,7 @@ class KesavKumarJ:
 </p>
 
 <p align="center">
-  <img src="https://vercel.app" width="845" alt="Activity Graph" />
-</p>
-
-
----
-
-## 📈 Activity Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" width="845" alt="Activity Graph" />
 </p>
 
 ---
