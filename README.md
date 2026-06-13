@@ -199,7 +199,7 @@ class KesavKumarJ:
 | 📄 | **ArXiv Pre-print (2026) in-progress** | Lead author. VLM benchmark audit across LLaVA-1.5, LLaVA-1.6, InstructBLIP, mPLUG-Owl2, Qwen2-VL. 9,000 evaluations. |
 | 🎤 | **IEEE ICCET 2026, Chennai** | Co-authored and presented the VisualPC distributed GPU framework paper. IEEE proceedings in progress. |
 | 🏆 | **NPTEL Java Programming, Top 5%** | Top 5% among **14,693 candidates** nationally. Elite + Silver badge. |
-| 🇮🇳 | **MSME Idea Hackathon 4.0, Govt. of India** | Selected for government-funded research. Grant of **₹13.5 Lakhs**. |
+| 🇮🇳 | **MSME Idea Hackathon 4.0, Govt. of India** | Technical Collaborator for government-funded research. Grant of **₹13.5 Lakhs**. |
 | 🤖 | **NVIDIA AI Fundamentals, 2024** | Completed Getting Started with AI on Jetson Nano and Fundamentals of Deep Learning. |
 | 📡 | **IEEE Student Member + IEEE Computer Society** | Active member since May 2026. |
 | 🏅 | **Finalist, Dynamix and Mystery Quest** | Inter-college technical and innovation contests. |
