@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kesav%20Kumar%20J&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=VLM%20Researcher%20%7C%20Cloud%20%2B%20DevOps%20Engineer%20%7C%20IEEE%20Member%20%7C%20MS%20CS%20NEU%202026&descAlignY=62&descSize=15)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kesav%20Kumar%20J&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=VLM%20Researcher%20%7C%20Cloud%20%2B%20DevOps%20Engineer%20%7C%20IEEE%20Member&descAlignY=62&descSize=15)
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=VLM+Evaluation+Researcher+%7C+ArXiv+%282026%29;Cloud+%2B+Edge+PaaS+%7C+IEEE+ICCET+2026;Govt-Funded+ML+Researcher+%7C+MSME+%E2%82%B913.5L;Top+5%25+NPTEL+Java+%7C+IEEE+Student+Member" alt="Typing SVG" /></a>
@@ -244,6 +244,6 @@ Cloud-Native Architecture    ->  Microservices, event-driven systems, edge-cloud
 <a href="https://rentique-1-4yhf.onrender.com"><img src="https://img.shields.io/badge/Rentique-Live-BF91F3?style=flat-square&logo=render&logoColor=white" alt="rentique"/></a>
 </p>
 
-<p align="center"><i>📍 Coimbatore, Tamil Nadu, India &nbsp;|&nbsp; 📞 +91 9080625542 &nbsp;|&nbsp; 🎓 Incoming MS CS @ Northeastern University 2026</i></p>
+<p align="center"><i>📍 Coimbatore, Tamil Nadu, India &nbsp;|&nbsp; 📞 +91 9080625542</i></p>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
