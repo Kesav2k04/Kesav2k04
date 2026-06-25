@@ -155,7 +155,7 @@ class KesavKumarJ:
 </details>
 
 <details>
-<summary><b>⚙️ DevOps Intern — iStudio (Remote)</b> &nbsp;|&nbsp; Jun 2025 – Aug 2025 &nbsp;|&nbsp; India</summary>
+<summary><b>⚙️ DevOps Intern — iStudio </b> &nbsp;|&nbsp; Jun 2025 – Aug 2025 &nbsp;|&nbsp; India</summary>
 
 <br/>
 
