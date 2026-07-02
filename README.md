@@ -127,11 +127,10 @@ class KesavKumarJ:
 <p align="center">
 <img src="https://img.shields.io/badge/Total%20Contributions-129%2B-70a5fd?style=for-the-badge&logo=github&logoColor=white" alt="contributions"/>
 <img src="https://img.shields.io/badge/Research%20Papers-ArXiv%20%2B%20IEEE-bf91f3?style=for-the-badge&logo=arxiv&logoColor=white" alt="papers"/>
-<img src="https://img.shields.io/badge/Govt%20Grant-%E2%82%B913.5%20Lakhs-38bdae?style=for-the-badge&logo=googlescholar&logoColor=white" alt="grant"/>
+<img src="https://img.shields.io/badge/Govt%20ontributor-%E2%82%B913.5%20Lakhs-38bdae?style=for-the-badge&logo=googlescholar&logoColor=white" alt="grant"/>
 <img src="https://img.shields.io/badge/NPTEL%20Java-Top%205%25%20of%2014%2C693-c9d1d9?style=for-the-badge&logo=openjdk&logoColor=black" alt="nptel"/>
 </p>
 <p align="center">
-<img src="https://img.shields.io/badge/IELTS-Band%206.5%20CEFR%20B2-70a5fd?style=for-the-badge&logo=googletranslate&logoColor=white" alt="ielts"/>
 <img src="https://img.shields.io/badge/IEEE-Student%20%2B%20CS%20Member-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="ieee"/>
 <img src="https://img.shields.io/badge/CGPA-8.31%20%2F%2010-bf91f3?style=for-the-badge&logo=academia&logoColor=white" alt="cgpa"/>
 <img src="https://img.shields.io/badge/GitHub%20Since-Oct%202022-38bdae?style=for-the-badge&logo=githubactions&logoColor=white" alt="since"/>
