@@ -5,6 +5,11 @@
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/welcome-robot.png" alt="Welcome robot hero, an AI engineer in a cloud-edge computing workspace" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Kesav2k04&style=flat-square&color=70a5fd&label=Profile+Views" alt="Profile views"/>
   <a href="https://www.linkedin.com/in/kesav-kumar-j-5414aa253/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://github.com/Kesav2k04"><img src="https://img.shields.io/badge/GitHub-Kesav2k04-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-Profile-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
@@ -48,14 +53,14 @@ class KesavKumarJ:
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 **AI, Research, and Frameworks**
 
@@ -98,6 +103,33 @@ class KesavKumarJ:
 </p>
 
 > Each badge links to a public project or reproducibility artifact. Competition figures and academic results below are resume-sourced where no official public result page is available.
+
+---
+
+## 📈 GitHub Momentum
+
+<p align="center">
+  <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" height="190" alt="Kesav Kumar GitHub statistics" />
+  <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&border_radius=10&cache_seconds=7200" height="190" alt="Most used public repository languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Kesav2k04&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" width="100%" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&theme=tokyo-night&bg_color=0D1117&color=70A5FD&line=BF91F3&point=38BDAE&area=true&hide_border=true" width="100%" alt="GitHub activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kesav2k04&theme=tokyonight" width="100%" alt="GitHub contribution summary" />
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/70A5FD/Kesav2k04" width="100%" alt="GitHub contribution calendar" />
+</p>
+
+> Live public GitHub widgets refresh independently and may not include private work. The evidence wall above remains the source of truth for verified project outcomes.
 
 ---
 
