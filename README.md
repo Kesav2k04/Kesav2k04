@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/welcome-robot.png" alt="Welcome robot hero, an AI engineer in a cloud-edge computing workspace" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/retro-welcome-bot.gif" alt="Animated retro pixel robot waving from a cloud-edge engineering workspace" width="480"/>
 </p>
 
 <p align="center">
@@ -15,6 +15,27 @@
   <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-Profile-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
   <a href="https://visualpc.vercel.app"><img src="https://img.shields.io/badge/VisualPC-Live-38BDAE?style=flat-square&logo=vercel&logoColor=white" alt="VisualPC live demo"/></a>
 </p>
+
+---
+
+## 🤖 Mission Control
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <b>🔬 Research with receipts</b><br/>
+      POPE audit, public code, dataset, PyPI package, and Zenodo archive.
+    </td>
+    <td width="33%" align="center">
+      <b>🖥️ Systems that measure</b><br/>
+      Cloud-edge GPU execution, offline rescue mesh, and evidence-aware RAG.
+    </td>
+    <td width="33%" align="center">
+      <b>🛠️ Upstream engineering</b><br/>
+      Submitted patches across LangChain, Future-AGI, EleutherAI, and Hugging Face.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -106,30 +127,14 @@ class KesavKumarJ:
 
 ---
 
-## 📈 GitHub Momentum
+## 📊 GitHub Snapshot
 
 <p align="center">
   <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" height="190" alt="Kesav Kumar GitHub statistics" />
   <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&border_radius=10&cache_seconds=7200" height="190" alt="Most used public repository languages" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Kesav2k04&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" width="100%" alt="GitHub contribution streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&theme=tokyo-night&bg_color=0D1117&color=70A5FD&line=BF91F3&point=38BDAE&area=true&hide_border=true" width="100%" alt="GitHub activity graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kesav2k04&theme=tokyonight" width="100%" alt="GitHub contribution summary" />
-</p>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/70A5FD/Kesav2k04" width="100%" alt="GitHub contribution calendar" />
-</p>
-
-> Live public GitHub widgets refresh independently and may not include private work. The evidence wall above remains the source of truth for verified project outcomes.
+> These public cards provide a compact code snapshot. The evidence wall above remains the source of truth for verified project outcomes.
 
 ---
 
