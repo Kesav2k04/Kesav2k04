@@ -1,24 +1,28 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=190&section=header&text=Kesav%20Kumar%20J&fontSize=43&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Researcher%20%7C%20Open-Source%20Patch%20Author%20%7C%20Cloud-Edge%20Systems&descAlignY=62&descSize=15)
-
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=70A5FD&center=true&vCenter=true&width=900&lines=POPE+Evaluation+Audit+%7C+82.21+F1+Corrected+Baseline;ICCET+2026+Publication+%7C+VisualPC+Distributed+GPU+Framework;National+Finalist+%7C+Snapdragon+Multiverse+Hackathon+2026;IBM+SkillsBuild+Runner-Up+%7C+%241%2C250+Award" alt="Profile highlights" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/banner-light.svg">
+    <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/banner-light.svg" alt="Kesav Kumar Jayakumar — AI researcher and cloud-edge systems engineer" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/retro-welcome-bot.gif" alt="Animated retro pixel robot waving from a cloud-edge engineering workspace" width="480"/>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=BF91F3&center=true&vCenter=true&width=900&lines=POPE+Evaluation+Audit+%7C+82.21+F1+Corrected+Baseline;ICCET+2026+Publication+%7C+VisualPC+Distributed+GPU+Framework;National+Finalist+%7C+Snapdragon+Multiverse+Hackathon+2026;IBM+SkillsBuild+Runner-Up+%7C+%241%2C250+Award" alt="Profile highlights" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Kesav2k04&style=flat-square&color=70a5fd&label=Profile+Views" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Kesav2k04&style=flat-square&color=BF91F3&label=Profile+Views" alt="Profile views"/>
+  <a href="mailto:kesavk659@gmail.com"><img src="https://img.shields.io/badge/Email-kesavk659%40gmail.com-38BDAE?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/kesav-kumar-j-5414aa253/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/Kesav2k04"><img src="https://img.shields.io/badge/GitHub-Kesav2k04-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-Profile-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
+  <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-0009--0006--9909--7851-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
+  <a href="https://huggingface.co/kesav2k04"><img src="https://img.shields.io/badge/Hugging%20Face-kesav2k04-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face profile"/></a>
+  <a href="https://pypi.org/project/pope-audit/"><img src="https://img.shields.io/badge/PyPI-pope--audit-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="pope-audit on PyPI"/></a>
   <a href="https://visualpc.vercel.app"><img src="https://img.shields.io/badge/VisualPC-Live-38BDAE?style=flat-square&logo=vercel&logoColor=white" alt="VisualPC live demo"/></a>
 </p>
 
 ---
 
-## 🤖 Mission Control
+## 🎯 Mission Control
 
 <table>
   <tr>
@@ -39,9 +43,19 @@
 
 ---
 
-## 👨‍💻 About Me
+## 🧭 Research Agenda
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Animated code illustration"/>
+One question drives most of my work: **when a benchmark number moves, did the model improve or did the measurement change?**
+
+- **Evaluation validity.** My POPE audit traced a tokenizer read-out artifact worth up to 7 F1 — large enough that **6** published mitigation methods see their reported gains shrink or reverse once it is corrected. The question I want to keep pulling on: how many other vision-language leaderboards are ranking methods by an extraction artifact rather than by grounding ability?
+- **Measurement as infrastructure.** VisualPC exists because "distributed inference is faster" is untestable without per-component timing. I build systems whose claims can be independently re-measured — queue wait, execution, and network reported separately rather than as one aggregate number.
+- **Reproducibility as the default.** Every result below ships with source, data, a package, or a DOI. I would rather publish a smaller claim that survives an audit than a larger one that does not.
+
+**Currently:** preparing research-based postgraduate applications for 2027 entry in VLM evaluation, trustworthy multimodal ML, and distributed ML systems. Happy to talk — [kesavk659@gmail.com](mailto:kesavk659@gmail.com).
+
+---
+
+## 👨‍💻 About Me
 
 ```python
 class KesavKumarJ:
@@ -56,7 +70,7 @@ class KesavKumarJ:
         "Reliable, reproducible AI engineering"
     ]
 
-    2026_highlights = [
+    highlights_2026 = [
         "Published VisualPC at ICCET 2026",
         "POPE audit under review at NeurIPS VLM4RWD",
         "National Finalist, Snapdragon Multiverse Hackathon",
@@ -66,46 +80,13 @@ class KesavKumarJ:
     motto = "Measure first. Build right. Ship with evidence."
 ```
 
-<br clear="right"/>
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**AI, Research, and Frameworks**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-
-**Cloud, Data, and Quality**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Papers-2-70A5FD?style=flat-square&labelColor=0D1117" alt="2 papers"/>
+  <img src="https://img.shields.io/badge/Upstream%20PRs-4-BF91F3?style=flat-square&labelColor=0D1117" alt="4 upstream pull requests"/>
+  <img src="https://img.shields.io/badge/Archived%20DOIs-2-38BDAE?style=flat-square&labelColor=0D1117" alt="2 archived DOIs"/>
+  <img src="https://img.shields.io/badge/GPU%20hours%20measured-90-70A5FD?style=flat-square&labelColor=0D1117" alt="90 GPU hours"/>
+  <img src="https://img.shields.io/badge/Audit%20queries-9%2C000-BF91F3?style=flat-square&labelColor=0D1117" alt="9,000 audit queries"/>
+</p>
 
 ---
 
@@ -124,17 +105,6 @@ class KesavKumarJ:
 </p>
 
 > Each badge links to a public project or reproducibility artifact. Competition figures and academic results below are resume-sourced where no official public result page is available.
-
----
-
-## 📊 GitHub Snapshot
-
-<p align="center">
-  <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" height="190" alt="Kesav Kumar GitHub statistics" />
-  <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&border_radius=10&cache_seconds=7200" height="190" alt="Most used public repository languages" />
-</p>
-
-> These public cards provide a compact code snapshot. The evidence wall above remains the source of truth for verified project outcomes.
 
 ---
 
@@ -180,6 +150,22 @@ class KesavKumarJ:
 
 </details>
 
+<details>
+<summary><b>📎 Citing this work</b></summary>
+
+<br/>
+
+Both artifacts are archived with permanent DOIs. Zenodo serves the canonical citation metadata in BibTeX, CSL, and RIS from the **Export** panel on each record.
+
+| Work | Venue | Archive |
+|:--|:--|:--|
+| Token-Set Choice Confounds POPE | Under review, NeurIPS 2026 VLM4RWD | [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
+| VisualPC | ICCET 2026, Chennai · ISBN 978-81-986418-1-6 | [10.5281/zenodo.20866268](https://doi.org/10.5281/zenodo.20866268) |
+
+ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
+
+</details>
+
 ---
 
 ## 🔧 Submitted Open-Source Patches
@@ -201,6 +187,11 @@ class KesavKumarJ:
 ---
 
 ## 🚀 Featured Systems
+
+<p align="center">
+  <a href="https://github.com/Kesav2k04/visualpc"><img width="49%" src="https://github-readme-stats-omega-five-40.vercel.app/api/pin/?username=Kesav2k04&repo=visualpc&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" alt="VisualPC repository card"/></a>
+  <a href="https://github.com/Kesav2k04/ugaa-research"><img width="49%" src="https://github-readme-stats-omega-five-40.vercel.app/api/pin/?username=Kesav2k04&repo=ugaa-research&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" alt="POPE audit repository card"/></a>
+</p>
 
 | Project | Stack | Evidence-rich outcome |
 |:--|:--|:--|
@@ -266,13 +257,72 @@ class KesavKumarJ:
 
 ---
 
-## 🧠 Engineering Toolkit
+## 📊 GitHub Snapshot
+
+<p align="center">
+  <img width="100%" src="https://streak-stats.demolab.com?user=Kesav2k04&hide_border=true&background=0D1117&border=1F2A3C&stroke=1F2A3C&ring=BF91F3&fire=38BDAE&currStreakLabel=70A5FD&sideLabels=8B98B0&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=5A6785&titleColor=70A5FD&card_width=1180" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" height="190" alt="Kesav Kumar GitHub statistics" />
+  <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&border_radius=10&cache_seconds=7200" height="190" alt="Most used public repository languages" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&custom_title=Contribution%20activity&bg_color=0D1117&color=70A5FD&line=BF91F3&point=38BDAE&title_color=70A5FD&area=true&area_color=BF91F3&hide_border=true&radius=10" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/output/github-snake.svg" />
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/output/github-snake.svg" />
+  </picture>
+</p>
+
+> These cards are a code-activity snapshot, not an outcome measure. The evidence wall and DOIs above remain the source of truth. Language shares reflect code volume, not depth.
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**AI, Research, and Frameworks**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+
+**Cloud, Data, and Quality**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ```text
-AI and ML       PyTorch · Hugging Face · QLoRA/PEFT · scikit-learn · RAG · LLM evaluation · NF4/INT8 · TensorRT
-Cloud and DevOps AWS EC2/S3/VPC · GCP · Docker · GitHub Actions · Jenkins · Linux · Tailscale
-Web and Data    React · Next.js · Spring Boot · FastAPI · REST · PostgreSQL · MySQL · MongoDB
-Testing         pytest · Playwright · JMeter · Selenium · Postman · Git · Ruff · mypy
+Also  QLoRA/PEFT · NF4 and INT8 quantisation · RAG · LLM evaluation harnesses · JavaScript
+      Linux · AWS EC2/S3/VPC · JMeter · Selenium · Postman · Ruff · mypy · MySQL · Git
 ```
 
 ---
@@ -280,10 +330,21 @@ Testing         pytest · Playwright · JMeter · Selenium · Postman · Git · 
 ## 📬 Connect
 
 <p align="center">
-  <a href="https://github.com/Kesav2k04"><img src="https://img.shields.io/badge/GitHub-Kesav2k04-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/kesav-kumar-j-5414aa253/"><img src="https://img.shields.io/badge/LinkedIn-Kesav%20Kumar%20J-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-0009--0006--9909--7851-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
-  <a href="https://visualpc.vercel.app"><img src="https://img.shields.io/badge/VisualPC-Live%20Demo-38BDAE?style=for-the-badge&logo=vercel&logoColor=white" alt="VisualPC live demo"/></a>
+  <a href="mailto:kesavk659@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=38BDAE&labelColor=0D1117" alt="Email"/></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/kesav-kumar-j-5414aa253/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  &nbsp;&nbsp;
+  <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-0D1117?style=for-the-badge&logo=orcid&logoColor=A6CE39&labelColor=0D1117" alt="ORCID"/></a>
+  &nbsp;&nbsp;
+  <a href="https://huggingface.co/kesav2k04"><img src="https://img.shields.io/badge/Hugging%20Face-0D1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E&labelColor=0D1117" alt="Hugging Face"/></a>
+  &nbsp;&nbsp;
+  <a href="https://visualpc.vercel.app"><img src="https://img.shields.io/badge/VisualPC%20Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=38BDAE&labelColor=0D1117" alt="VisualPC live demo"/></a>
 </p>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/footer-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/footer-light.svg">
+    <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/footer-light.svg" alt="Measure first. Build right. Ship with evidence." width="100%">
+  </picture>
+</p>

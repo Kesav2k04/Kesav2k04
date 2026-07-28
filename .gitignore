@@ -1,0 +1,5 @@
+# The original photo stays local: the published banner only ever contains the
+# 1-bit dot rendering. portrait.npz caches the dithered grids, so the banner can
+# be regenerated without it -- only a forced re-dither needs the source.
+assets/banner/source-photo.jpg
+assets/banner/_debug/
