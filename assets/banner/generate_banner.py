@@ -114,7 +114,7 @@ ROWS = [
     ("Core.Infra",    "AWS  ·  GCP  ·  Docker  ·  Actions  ·  Tailscale",  False),
     ("Grid.Mail",     "kesavk659@gmail.com",                               True),
     ("Grid.ORCID",    "0009-0006-9909-7851",                               False),
-    ("Grid.LinkedIn", "in/kesav-kumar-j-5414aa253",                        False),
+    ("Grid.LinkedIn", "in/kesav-kumar-j",                                  False),
     ("Grid.Live",     "visualpc.vercel.app",                               False),
 ]
 
