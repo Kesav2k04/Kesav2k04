@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/banner-light.svg">
@@ -18,7 +18,7 @@
   <a href="https://huggingface.co/kesav2k04"><img src="https://img.shields.io/badge/Hugging%20Face-kesav2k04-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face profile"/></a>
   <a href="https://pypi.org/project/pope-audit/"><img src="https://img.shields.io/badge/PyPI-pope--audit-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="pope-audit on PyPI"/></a>
   <a href="https://visualpc.vercel.app"><img src="https://img.shields.io/badge/VisualPC-Live-38BDAE?style=flat-square&logo=vercel&logoColor=white" alt="VisualPC live demo"/></a>
-  <a href="https://sahayak-e2b-benchmark.vercel.app"><img src="https://img.shields.io/badge/Sahayak--E2B-Eval%20Report-BF91F3?style=flat-square&logo=vercel&logoColor=white" alt="Sahayak-E2B evaluation report"/></a>
+  <a href="https://report-page-ten.vercel.app"><img src="https://img.shields.io/badge/Sahayak--E2B-Eval%20Report-BF91F3?style=flat-square&logo=vercel&logoColor=white" alt="Sahayak-E2B evaluation report"/></a>
 </p>
 
 ---
@@ -50,7 +50,7 @@ One question drives most of my work: **when a benchmark number moves, did the mo
 
 - **Evaluation validity.** My POPE audit traced a tokenizer read-out artifact worth up to 7 F1 — large enough that **6** published mitigation methods see their reported gains shrink or reverse once it is corrected. The question I want to keep pulling on: how many other vision-language leaderboards are ranking methods by an extraction artifact rather than by grounding ability?
 - **Measurement as infrastructure.** VisualPC exists because "distributed inference is faster" is untestable without per-component timing. I build systems whose claims can be independently re-measured — queue wait, execution, and network reported separately rather than as one aggregate number.
-- **Reproducibility as the default.** Every result below ships with source, data, a package, or a DOI. I would rather publish a smaller claim that survives an audit than a larger one that does not. Sankat-Mochan's [evaluation report](https://sahayak-e2b-benchmark.vercel.app) takes this furthest: every claim carries an evidence tier, a contamination check runs before any held-out number is quoted, and a single script re-asserts all **22** objective claims from the released artefacts with no GPU and no network. The numbers that script *cannot* recompute are labelled as such rather than presented as if it could.
+- **Reproducibility as the default.** Every result below ships with source, data, a package, or a DOI. I would rather publish a smaller claim that survives an audit than a larger one that does not. Sankat-Mochan's [evaluation report](https://report-page-ten.vercel.app) takes this furthest: every claim carries an evidence tier, a contamination check runs before any held-out number is quoted, and a single script re-asserts all **22** objective claims from the released artefacts with no GPU and no network. The numbers that script *cannot* recompute are labelled as such rather than presented as if it could.
 
 **Currently:** preparing postgraduate applications for 2027 entry in VLM evaluation, trustworthy multimodal ML, and distributed ML systems. Happy to talk — [kesavk659@gmail.com](mailto:kesavk659@gmail.com).
 
@@ -103,7 +103,7 @@ class KesavKumarJ:
   <a href="https://github.com/Kesav2k04/Sankat-Mochan"><img src="https://img.shields.io/badge/Snapdragon%202026-National%20Finalist-70A5FD?style=for-the-badge&logo=qualcomm&logoColor=white" alt="Snapdragon Multiverse Hackathon national finalist"/></a>
   <a href="https://github.com/Kesav2k04/decisionlens-june-2026"><img src="https://img.shields.io/badge/IBM%20SkillsBuild-Runner--Up-38BDAE?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM SkillsBuild runner-up"/></a>
   <a href="https://pypi.org/project/pope-audit/"><img src="https://img.shields.io/badge/PyPI-pope--audit%200.1.1-BF91F3?style=for-the-badge&logo=pypi&logoColor=white" alt="pope-audit version 0.1.1 on PyPI"/></a>
-  <a href="https://sahayak-e2b-benchmark.vercel.app"><img src="https://img.shields.io/badge/Sahayak--E2B%20eval-22%2F22%20assertions%20pass-70A5FD?style=for-the-badge&logo=vercel&logoColor=white" alt="Sahayak-E2B evaluation report, 22 of 22 assertions pass"/></a>
+  <a href="https://report-page-ten.vercel.app"><img src="https://img.shields.io/badge/Sahayak--E2B%20eval-22%2F22%20assertions%20pass-70A5FD?style=for-the-badge&logo=vercel&logoColor=white" alt="Sahayak-E2B evaluation report, 22 of 22 assertions pass"/></a>
 </p>
 
 > Each badge links to a public project or reproducibility artifact. Competition figures and academic results below are resume-sourced where no official public result page is available.
@@ -214,7 +214,7 @@ ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
 </p>
 
 - **National Finalist**, Snapdragon Multiverse Hackathon, Bengaluru, July 2026, for Sankat-Mochan. Its
-  on-device fine-tune ships a [tiered evaluation report](https://sahayak-e2b-benchmark.vercel.app) that
+  on-device fine-tune ships a [tiered evaluation report](https://report-page-ten.vercel.app) that
   labels every claim reproducible, human-graded, or measured-once, and publishes the negative results —
   including a known anaphylaxis failure — alongside the wins.
 - **Runner-Up, 2nd place**, IBM SkillsBuild "AI Inside the Match" International Challenge, June 2026. Awarded **$1,250** among **3,381 registrants** and **307 projects**, judged by a 19-member IBM panel.
@@ -353,3 +353,4 @@ Also  QLoRA/PEFT · NF4 and INT8 quantisation · RAG · LLM evaluation harnesses
     <img src="https://raw.githubusercontent.com/Kesav2k04/Kesav2k04/main/assets/footer-light.svg" alt="Measure first. Build right. Ship with evidence." width="100%">
   </picture>
 </p>
+
