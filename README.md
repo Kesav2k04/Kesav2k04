@@ -52,7 +52,7 @@ One question drives most of my work: **when a benchmark number moves, did the mo
 - **Measurement as infrastructure.** VisualPC exists because "distributed inference is faster" is untestable without per-component timing. I build systems whose claims can be independently re-measured — queue wait, execution, and network reported separately rather than as one aggregate number.
 - **Reproducibility as the default.** Every result below ships with source, data, a package, or a DOI. I would rather publish a smaller claim that survives an audit than a larger one that does not. Sankat-Mochan's [evaluation report](https://sahayak-e2b-benchmark.vercel.app) takes this furthest: every claim carries an evidence tier, a contamination check runs before any held-out number is quoted, and a single script re-asserts all **22** objective claims from the released artefacts with no GPU and no network. The numbers that script *cannot* recompute are labelled as such rather than presented as if it could.
 
-**Currently:** preparing research-based postgraduate applications for 2027 entry in VLM evaluation, trustworthy multimodal ML, and distributed ML systems. Happy to talk — [kesavk659@gmail.com](mailto:kesavk659@gmail.com).
+**Currently:** preparing postgraduate applications for 2027 entry in VLM evaluation, trustworthy multimodal ML, and distributed ML systems. Happy to talk — [kesavk659@gmail.com](mailto:kesavk659@gmail.com).
 
 ---
 
