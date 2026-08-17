@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=BF91F3&center=true&vCenter=true&width=900&lines=POPE+Evaluation+Audit+%7C+82.21+F1+Corrected+Baseline;ICCET+2026+Publication+%7C+VisualPC+Distributed+GPU+Framework;National+Finalist+%7C+Snapdragon+Multiverse+Hackathon+2026;IBM+SkillsBuild+Runner-Up+%7C+%241%2C250+Award" alt="Profile highlights" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=BF91F3&center=true&vCenter=true&width=900&lines=POPE+Evaluation+Audit+%7C+82.21+F1+Corrected+Baseline;ICCET+2026+Publication+%7C+VisualPC+Distributed+GPU+Framework;National+Finalist+%7C+Snapdragon+Multiverse+Hackathon+2026;IBM+SkillsBuild+Runner-Up+%7C+%241%2C250+Award;Merged+Upstream+%7C+Future-AGI+Go+MCP+Gateway" alt="Profile highlights" /></a>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
     </td>
     <td width="33%" align="center">
       <b>🛠️ Upstream engineering</b><br/>
-      Submitted patches across LangChain, Future-AGI, EleutherAI, and Hugging Face.
+      Merged into Future-AGI's Go gateway, with patches submitted to LangChain, EleutherAI, and Hugging Face.
     </td>
   </tr>
 </table>
@@ -83,7 +83,7 @@ class KesavKumarJ:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-2-70A5FD?style=flat-square&labelColor=0D1117" alt="2 papers"/>
-  <img src="https://img.shields.io/badge/Upstream%20PRs-4-BF91F3?style=flat-square&labelColor=0D1117" alt="4 upstream pull requests"/>
+  <img src="https://img.shields.io/badge/Upstream%20PRs-4%20submitted%2C%201%20merged-BF91F3?style=flat-square&labelColor=0D1117" alt="4 upstream pull requests submitted, 1 merged"/>
   <img src="https://img.shields.io/badge/Archived%20DOIs-2-38BDAE?style=flat-square&labelColor=0D1117" alt="2 archived DOIs"/>
   <img src="https://img.shields.io/badge/GPU%20hours%20measured-90-70A5FD?style=flat-square&labelColor=0D1117" alt="90 GPU hours"/>
   <img src="https://img.shields.io/badge/Audit%20queries-9%2C000-BF91F3?style=flat-square&labelColor=0D1117" alt="9,000 audit queries"/>
@@ -104,6 +104,7 @@ class KesavKumarJ:
   <a href="https://github.com/Kesav2k04/decisionlens-june-2026"><img src="https://img.shields.io/badge/IBM%20SkillsBuild-Runner--Up-38BDAE?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM SkillsBuild runner-up"/></a>
   <a href="https://pypi.org/project/pope-audit/"><img src="https://img.shields.io/badge/PyPI-pope--audit%200.1.1-BF91F3?style=for-the-badge&logo=pypi&logoColor=white" alt="pope-audit version 0.1.1 on PyPI"/></a>
   <a href="https://report-page-ten.vercel.app"><img src="https://img.shields.io/badge/Sahayak--E2B%20eval-22%2F22%20assertions%20pass-70A5FD?style=for-the-badge&logo=vercel&logoColor=white" alt="Sahayak-E2B evaluation report, 22 of 22 assertions pass"/></a>
+  <a href="https://github.com/future-agi/future-agi/pull/1405"><img src="https://img.shields.io/badge/Future--AGI-PR%20%231405%20merged-8957E5?style=for-the-badge&logo=go&logoColor=white" alt="Future-AGI pull request 1405 merged"/></a>
 </p>
 
 > Each badge links to a public project or reproducibility artifact. Competition figures and academic results below are resume-sourced where no official public result page is available.
@@ -170,11 +171,11 @@ ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
 
 ---
 
-## 🔧 Submitted Open-Source Patches
+## 🔧 Upstream Open-Source Patches
 
 <p align="center">
   <a href="https://github.com/langchain-ai/langchain/pull/38625"><img src="https://img.shields.io/badge/LangChain-PR%20%2338625-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain pull request 38625"/></a>
-  <a href="https://github.com/future-agi/future-agi/pull/1405"><img src="https://img.shields.io/badge/Future--AGI-PR%20%231405-70A5FD?style=flat-square&logo=go&logoColor=white" alt="Future-AGI pull request 1405"/></a>
+  <a href="https://github.com/future-agi/future-agi/pull/1405"><img src="https://img.shields.io/badge/Future--AGI-PR%20%231405%20merged-8957E5?style=flat-square&logo=go&logoColor=white" alt="Future-AGI pull request 1405, merged"/></a>
   <a href="https://github.com/EleutherAI/lm-evaluation-harness/pull/3862"><img src="https://img.shields.io/badge/EleutherAI-PR%20%233862-8B5CF6?style=flat-square&logo=python&logoColor=white" alt="EleutherAI pull request 3862"/></a>
   <a href="https://github.com/huggingface/lighteval/pull/1268"><img src="https://img.shields.io/badge/Hugging%20Face-PR%20%231268-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face pull request 1268"/></a>
 </p>
@@ -182,7 +183,7 @@ ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
 | Project | Patch summary | Status |
 |:--|:--|:--|
 | LangChain, `langchain-openai` | Structured-output streaming warning fix extending a maintainer change to sync and async generators. Validated against 517 tests, Ruff, and mypy. `+8 / -2` | [PR #38625, closed](https://github.com/langchain-ai/langchain/pull/38625) |
-| Future-AGI, `agentcc-gateway` in Go | Founder-invited MCP schema-validation patch that prevents empty tool arguments from skipping required-field checks. Includes a regression guard. `+43 / -1` | [PR #1405, open](https://github.com/future-agi/future-agi/pull/1405) |
+| Future-AGI, `agentcc-gateway` in Go | Founder-invited MCP schema-validation patch that prevents empty tool arguments from skipping required-field checks. Includes a regression guard. `+43 / -1` | [PR #1405, merged](https://github.com/future-agi/future-agi/pull/1405) |
 | EleutherAI, `lm-evaluation-harness` | Just-in-time native-Python `@property` lazy loader replaces eager dataset loading in `lm_eval/api/task.py`, reducing multi-task startup memory with no new dependencies. `+49 / -7` | [PR #3862, open](https://github.com/EleutherAI/lm-evaluation-harness/pull/3862) |
 | Hugging Face, `lighteval` | Fail-fast static linter for custom evaluation tasks using `inspect` and `typing`, refactored through Ruff C901 with an in-memory pytest suite. `+220` | [PR #1268, open](https://github.com/huggingface/lighteval/pull/1268) |
 
