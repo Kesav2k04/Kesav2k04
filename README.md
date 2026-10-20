@@ -73,7 +73,7 @@ class KesavKumarJ:
 
     highlights_2026 = [
         "Published VisualPC at ICCET 2026",
-        "POPE audit accepted at NeurIPS 2026 VLM4RWD (arXiv:2610.25964)",
+        "POPE audit at NeurIPS 2026 VLM4RWD",
         "National Finalist, Snapdragon Multiverse Hackathon",
         "Runner-Up, IBM SkillsBuild international challenge"
     ]
@@ -94,7 +94,6 @@ class KesavKumarJ:
 ## 🏆 2026 Evidence Wall
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2610.25964"><img src="https://img.shields.io/badge/NeurIPS%202026%20VLM4RWD-POPE%20audit%20accepted-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="POPE audit accepted at the NeurIPS 2026 VLM4RWD workshop, arXiv:2610.25964"/></a>
   <a href="https://github.com/Kesav2k04/ugaa-research"><img src="https://img.shields.io/badge/POPE%20audit-82.21%20F1-70A5FD?style=for-the-badge&logo=pytorch&logoColor=white" alt="POPE audit corrected baseline 82.21 F1"/></a>
   <a href="https://huggingface.co/datasets/kesav2k04/pope-audit-records"><img src="https://img.shields.io/badge/Reproducibility-9%2C000%20queries-38BDAE?style=for-the-badge&logo=huggingface&logoColor=white" alt="9,000 query audit records"/></a>
   <a href="https://github.com/Kesav2k04/visualpc"><img src="https://img.shields.io/badge/ICCET%202026-VisualPC%20published-BF91F3?style=for-the-badge&logo=ieee&logoColor=white" alt="VisualPC published at ICCET 2026"/></a>
@@ -115,11 +114,11 @@ class KesavKumarJ:
 ## 📚 Research and Reproducible Proof
 
 <details open>
-<summary><b>🔬 Token-Set Choice Confounds POPE</b> | Accepted (poster), NeurIPS 2026 VLM4RWD workshop</summary>
+<summary><b>🔬 Token-Set Choice Confounds POPE</b> | NeurIPS 2026 VLM4RWD Workshop</summary>
 
 <br/>
 
-**Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation** was accepted as a poster at the NeurIPS 2026 Workshop on Grounded and Faithful Vision-Language Models for Real-World Deployment (VLM4RWD), Sydney. Paper: [arXiv:2610.25964](https://arxiv.org/abs/2610.25964).
+**Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation**
 
 - Traced a tokenizer prefix-space artifact in the POPE yes/no read-out. Correcting it raised the LLaVA-1.5 baseline by **6.13 points to 82.21 F1** on the adversarial split.
 - Surveyed **6** published mitigation methods: the 6.13-point shift exceeds the gain reported by 5 of them, and none states its read-out.
@@ -164,7 +163,7 @@ Both artifacts are archived with permanent DOIs. Zenodo serves the canonical cit
 
 | Work | Venue | Archive |
 |:--|:--|:--|
-| Token-Set Choice Confounds POPE | Accepted (poster), NeurIPS 2026 VLM4RWD | [arXiv:2610.25964](https://arxiv.org/abs/2610.25964) · [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
+| Token-Set Choice Confounds POPE | NeurIPS 2026 VLM4RWD Workshop | [arXiv:2610.25964](https://arxiv.org/abs/2610.25964) · [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
 | VisualPC | ICCET 2026, Chennai · ISBN 978-81-986418-1-6 | [10.5281/zenodo.20866268](https://doi.org/10.5281/zenodo.20866268) |
 
 ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
