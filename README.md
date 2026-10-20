@@ -29,7 +29,7 @@
   <tr>
     <td width="33%" align="center">
       <b>🔬 Research with receipts</b><br/>
-      POPE audit, public code, dataset, PyPI package, and Zenodo archive.
+      POPE audit on arXiv, public code, dataset, PyPI package, and Zenodo archive.
     </td>
     <td width="33%" align="center">
       <b>🖥️ Systems that measure</b><br/>
@@ -48,7 +48,7 @@
 
 One question drives most of my work: **when a benchmark number moves, did the model improve or did the measurement change?**
 
-- **Evaluation validity.** My POPE audit traced a tokenizer read-out artifact worth up to 7 F1 — large enough that **6** published mitigation methods see their reported gains shrink or reverse once it is corrected. The question I want to keep pulling on: how many other vision-language leaderboards are ranking methods by an extraction artifact rather than by grounding ability?
+- **Evaluation validity.** My POPE audit traced a tokenizer read-out artifact that moves the LLaVA-1.5 adversarial F1 by 6.13 points, more than the gain reported by **5 of 6** surveyed mitigation papers, none of which states its read-out. The question I want to keep pulling on: how many other vision-language leaderboards are ranking methods by an extraction artifact rather than by grounding ability?
 - **Measurement as infrastructure.** VisualPC exists because "distributed inference is faster" is untestable without per-component timing. I build systems whose claims can be independently re-measured — queue wait, execution, and network reported separately rather than as one aggregate number.
 - **Reproducibility as the default.** Every result below ships with source, data, a package, or a DOI. I would rather publish a smaller claim that survives an audit than a larger one that does not. Sankat-Mochan's [evaluation report](https://sahayak-e2b-benchmark.vercel.app) takes this furthest: every claim carries an evidence tier, a contamination check runs before any held-out number is quoted, and a single script re-asserts all **22** objective claims from the released artefacts with no GPU and no network. The numbers that script *cannot* recompute are labelled as such rather than presented as if it could.
 
@@ -73,7 +73,7 @@ class KesavKumarJ:
 
     highlights_2026 = [
         "Published VisualPC at ICCET 2026",
-        "POPE audit under review at NeurIPS VLM4RWD",
+        "POPE audit accepted at NeurIPS 2026 VLM4RWD (arXiv:2610.25964)",
         "National Finalist, Snapdragon Multiverse Hackathon",
         "Runner-Up, IBM SkillsBuild international challenge"
     ]
@@ -94,6 +94,7 @@ class KesavKumarJ:
 ## 🏆 2026 Evidence Wall
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2610.25964"><img src="https://img.shields.io/badge/NeurIPS%202026%20VLM4RWD-POPE%20audit%20accepted-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="POPE audit accepted at the NeurIPS 2026 VLM4RWD workshop, arXiv:2610.25964"/></a>
   <a href="https://github.com/Kesav2k04/ugaa-research"><img src="https://img.shields.io/badge/POPE%20audit-82.21%20F1-70A5FD?style=for-the-badge&logo=pytorch&logoColor=white" alt="POPE audit corrected baseline 82.21 F1"/></a>
   <a href="https://huggingface.co/datasets/kesav2k04/pope-audit-records"><img src="https://img.shields.io/badge/Reproducibility-9%2C000%20queries-38BDAE?style=for-the-badge&logo=huggingface&logoColor=white" alt="9,000 query audit records"/></a>
   <a href="https://github.com/Kesav2k04/visualpc"><img src="https://img.shields.io/badge/ICCET%202026-VisualPC%20published-BF91F3?style=for-the-badge&logo=ieee&logoColor=white" alt="VisualPC published at ICCET 2026"/></a>
@@ -114,18 +115,19 @@ class KesavKumarJ:
 ## 📚 Research and Reproducible Proof
 
 <details open>
-<summary><b>🔬 Token-Set Choice Confounds POPE</b> | Under review, NeurIPS 2026 VLM4RWD workshop</summary>
+<summary><b>🔬 Token-Set Choice Confounds POPE</b> | Accepted (poster), NeurIPS 2026 VLM4RWD workshop</summary>
 
 <br/>
 
-**Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation** is under review for the NeurIPS 2026 Workshop on Grounded and Faithful Vision-Language Models, VLM4RWD, Sydney.
+**Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation** was accepted as a poster at the NeurIPS 2026 Workshop on Grounded and Faithful Vision-Language Models for Real-World Deployment (VLM4RWD), Sydney. Paper: [arXiv:2610.25964](https://arxiv.org/abs/2610.25964).
 
-- Traced a tokenizer prefix-space artifact that deflated POPE hallucination scores by up to 7 F1. Correcting the logit read-out raised the LLaVA-1.5 baseline by **6.13 points to 82.21 F1**.
-- Re-evaluated **6** published mitigation methods and found reported gains shrink or reverse against the corrected baseline.
+- Traced a tokenizer prefix-space artifact in the POPE yes/no read-out. Correcting it raised the LLaVA-1.5 baseline by **6.13 points to 82.21 F1** on the adversarial split.
+- Surveyed **6** published mitigation methods: the 6.13-point shift exceeds the gain reported by 5 of them, and none states its read-out.
 - Confirmed the confound across **4 VLMs**, **3 tokenizer families**, **9,000 queries**, and **90 GPU-hours**. Attention probing measured **Cohen's d = -0.46**.
 - Released `pope-audit` version 0.1.1 on PyPI and 9,000 prediction records on Hugging Face for reproducibility. Source code is archived on Zenodo with a DOI.
 
 <p>
+  <a href="https://arxiv.org/abs/2610.25964"><img src="https://img.shields.io/badge/arXiv-2610.25964-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv:2610.25964"/></a>
   <a href="https://github.com/Kesav2k04/ugaa-research"><img src="https://img.shields.io/badge/Source-ugaa--research-181717?style=flat-square&logo=github&logoColor=white" alt="POPE audit source"/></a>
   <a href="https://huggingface.co/datasets/kesav2k04/pope-audit-records"><img src="https://img.shields.io/badge/Dataset-9%2C000%20records-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="POPE audit dataset"/></a>
   <a href="https://pypi.org/project/pope-audit/"><img src="https://img.shields.io/badge/PyPI-v0.1.1-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="pope-audit on PyPI"/></a>
@@ -162,7 +164,7 @@ Both artifacts are archived with permanent DOIs. Zenodo serves the canonical cit
 
 | Work | Venue | Archive |
 |:--|:--|:--|
-| Token-Set Choice Confounds POPE | Under review, NeurIPS 2026 VLM4RWD | [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
+| Token-Set Choice Confounds POPE | Accepted (poster), NeurIPS 2026 VLM4RWD | [arXiv:2610.25964](https://arxiv.org/abs/2610.25964) · [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
 | VisualPC | ICCET 2026, Chennai · ISBN 978-81-986418-1-6 | [10.5281/zenodo.20866268](https://doi.org/10.5281/zenodo.20866268) |
 
 ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
