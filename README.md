@@ -37,7 +37,7 @@
     </td>
     <td width="33%" align="center">
       <b>🛠️ Upstream engineering</b><br/>
-      Merged into Future-AGI's Go gateway, with patches submitted to LangChain, EleutherAI, and Hugging Face.
+      Merged into Future-AGI's Go gateway and CALLE-AI's phone-call agents catalogue, with patches in review at EleutherAI and Hugging Face.
     </td>
   </tr>
 </table>
@@ -83,7 +83,7 @@ class KesavKumarJ:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Papers-2-70A5FD?style=flat-square&labelColor=0D1117" alt="2 papers"/>
-  <img src="https://img.shields.io/badge/Upstream%20PRs-4%20submitted%2C%201%20merged-BF91F3?style=flat-square&labelColor=0D1117" alt="4 upstream pull requests submitted, 1 merged"/>
+  <img src="https://img.shields.io/badge/Upstream%20PRs-5%20submitted%2C%202%20merged-BF91F3?style=flat-square&labelColor=0D1117" alt="5 upstream pull requests submitted, 2 merged"/>
   <img src="https://img.shields.io/badge/Archived%20DOIs-2-38BDAE?style=flat-square&labelColor=0D1117" alt="2 archived DOIs"/>
   <img src="https://img.shields.io/badge/GPU%20hours%20measured-90-70A5FD?style=flat-square&labelColor=0D1117" alt="90 GPU hours"/>
   <img src="https://img.shields.io/badge/Audit%20queries-9%2C000-BF91F3?style=flat-square&labelColor=0D1117" alt="9,000 audit queries"/>
@@ -105,6 +105,7 @@ class KesavKumarJ:
   <a href="https://pypi.org/project/pope-audit/"><img src="https://img.shields.io/badge/PyPI-pope--audit%200.1.1-BF91F3?style=for-the-badge&logo=pypi&logoColor=white" alt="pope-audit version 0.1.1 on PyPI"/></a>
   <a href="https://sahayak-e2b-benchmark.vercel.app"><img src="https://img.shields.io/badge/Sahayak--E2B%20eval-22%2F22%20assertions%20pass-70A5FD?style=for-the-badge&logo=vercel&logoColor=white" alt="Sahayak-E2B evaluation report, 22 of 22 assertions pass"/></a>
   <a href="https://github.com/future-agi/future-agi/pull/1405"><img src="https://img.shields.io/badge/Future--AGI-PR%20%231405%20merged-8957E5?style=for-the-badge&logo=go&logoColor=white" alt="Future-AGI pull request 1405 merged"/></a>
+  <a href="https://github.com/CALLE-AI/awesome-phone-call-agents/pull/538"><img src="https://img.shields.io/badge/CALLE--AI-Firstbell%20merged-38BDAE?style=for-the-badge&logo=github&logoColor=white" alt="Firstbell merged into CALLE-AI awesome-phone-call-agents, pull request 538"/></a>
 </p>
 
 > Each badge links to a public project or reproducibility artifact. Competition figures and academic results below are resume-sourced where no official public result page is available.
@@ -114,7 +115,7 @@ class KesavKumarJ:
 ## 📚 Research and Reproducible Proof
 
 <details open>
-<summary><b>🔬 Token-Set Choice Confounds POPE</b> | NeurIPS 2026 VLM4RWD Workshop</summary>
+<summary><b>🔬 Token-Set Choice Confounds POPE</b> | NeurIPS 2026 VLM4RWD Workshop, Sydney</summary>
 
 <br/>
 
@@ -163,7 +164,7 @@ Both artifacts are archived with permanent DOIs. Zenodo serves the canonical cit
 
 | Work | Venue | Archive |
 |:--|:--|:--|
-| Token-Set Choice Confounds POPE | NeurIPS 2026 VLM4RWD Workshop | [arXiv:2610.25964](https://arxiv.org/abs/2610.25964) · [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
+| Token-Set Choice Confounds POPE | NeurIPS 2026 VLM4RWD Workshop, Sydney | [arXiv:2610.25964](https://arxiv.org/abs/2610.25964) · [10.5281/zenodo.20738626](https://doi.org/10.5281/zenodo.20738626) |
 | VisualPC | ICCET 2026, Chennai · ISBN 978-81-986418-1-6 | [10.5281/zenodo.20866268](https://doi.org/10.5281/zenodo.20866268) |
 
 ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
@@ -175,16 +176,17 @@ ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
 ## 🔧 Upstream Open-Source Patches
 
 <p align="center">
-  <a href="https://github.com/langchain-ai/langchain/pull/38625"><img src="https://img.shields.io/badge/LangChain-PR%20%2338625-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain pull request 38625"/></a>
   <a href="https://github.com/future-agi/future-agi/pull/1405"><img src="https://img.shields.io/badge/Future--AGI-PR%20%231405%20merged-8957E5?style=flat-square&logo=go&logoColor=white" alt="Future-AGI pull request 1405, merged"/></a>
-  <a href="https://github.com/EleutherAI/lm-evaluation-harness/pull/3862"><img src="https://img.shields.io/badge/EleutherAI-PR%20%233862-8B5CF6?style=flat-square&logo=python&logoColor=white" alt="EleutherAI pull request 3862"/></a>
-  <a href="https://github.com/huggingface/lighteval/pull/1268"><img src="https://img.shields.io/badge/Hugging%20Face-PR%20%231268-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face pull request 1268"/></a>
+  <a href="https://github.com/CALLE-AI/awesome-phone-call-agents/pull/538"><img src="https://img.shields.io/badge/CALLE--AI-PR%20%23538%20merged-38BDAE?style=flat-square&logo=github&logoColor=white" alt="CALLE-AI pull request 538, merged"/></a>
+  <a href="https://github.com/EleutherAI/lm-evaluation-harness/pull/3862"><img src="https://img.shields.io/badge/EleutherAI-PR%20%233862%20in%20review-8B5CF6?style=flat-square&logo=python&logoColor=white" alt="EleutherAI pull request 3862, in review"/></a>
+  <a href="https://github.com/huggingface/lighteval/pull/1268"><img src="https://img.shields.io/badge/Hugging%20Face-PR%20%231268%20in%20review-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face pull request 1268, in review"/></a>
 </p>
 
 | Project | Patch summary | Status |
 |:--|:--|:--|
 | LangChain, `langchain-openai` | Structured-output streaming warning fix extending a maintainer change to sync and async generators. Validated against 517 tests, Ruff, and mypy. `+8 / -2` | [PR #38625, closed](https://github.com/langchain-ai/langchain/pull/38625) |
 | Future-AGI, `agentcc-gateway` in Go | Founder-invited MCP schema-validation patch that prevents empty tool arguments from skipping required-field checks. Includes a regression guard. `+43 / -1` | [PR #1405, merged](https://github.com/future-agi/future-agi/pull/1405) |
+| CALLE-AI, `awesome-phone-call-agents` | Firstbell, a school-attendance calling app, added to the apps catalogue with its test suite and design records. | [PR #538, merged](https://github.com/CALLE-AI/awesome-phone-call-agents/pull/538) |
 | EleutherAI, `lm-evaluation-harness` | Just-in-time native-Python `@property` lazy loader replaces eager dataset loading in `lm_eval/api/task.py`, reducing multi-task startup memory with no new dependencies. `+49 / -7` | [PR #3862, open](https://github.com/EleutherAI/lm-evaluation-harness/pull/3862) |
 | Hugging Face, `lighteval` | Fail-fast static linter for custom evaluation tasks using `inspect` and `typing`, refactored through Ruff C901 with an in-memory pytest suite. `+220` | [PR #1268, open](https://github.com/huggingface/lighteval/pull/1268) |
 
@@ -273,10 +275,6 @@ ORCID: [0009-0006-9909-7851](https://orcid.org/0009-0006-9909-7851)
 <p align="center">
   <img src="https://github-readme-stats-omega-five-40.vercel.app/api?username=Kesav2k04&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&border_radius=10&cache_seconds=7200" height="190" alt="Kesav Kumar GitHub statistics" />
   <img src="https://github-readme-stats-omega-five-40.vercel.app/api/top-langs/?username=Kesav2k04&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&border_radius=10&cache_seconds=7200" height="190" alt="Most used public repository languages" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kesav2k04&custom_title=Contribution%20activity&bg_color=0D1117&color=70A5FD&line=BF91F3&point=38BDAE&title_color=70A5FD&area=true&area_color=BF91F3&hide_border=true&radius=10" alt="Contribution activity graph" />
 </p>
 
 <p align="center">
