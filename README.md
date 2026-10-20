@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Kesav2k04&style=flat-square&color=BF91F3&label=Profile+Views" alt="Profile views"/>
+  <img src="https://hits.sh/github.com/Kesav2k04.svg?style=flat-square&label=Profile%20Views&color=bf91f3&extraCount=482" alt="Profile views"/>
   <a href="mailto:kesavk659@gmail.com"><img src="https://img.shields.io/badge/Email-kesavk659%40gmail.com-38BDAE?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/kesav-kumar-j-5414aa253/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://orcid.org/0009-0006-9909-7851"><img src="https://img.shields.io/badge/ORCID-0009--0006--9909--7851-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
