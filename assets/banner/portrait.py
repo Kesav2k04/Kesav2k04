@@ -214,6 +214,55 @@ def runs(ink: np.ndarray) -> list[tuple[int, int, int]]:
     return out
 
 
+# --- halftone re-screen ---------------------------------------------------
+# The 1-bit grid stays the stored master, but it cannot be shown 1:1. A README
+# renders the banner at about 0.76x, so one grid cell lands on roughly one
+# screen pixel and the dither resamples into moire stripes (the plaid shirt
+# turns into a grid of bars). Low-passing the dither recovers continuous tone,
+# which is then re-screened on a hex lattice: spacing fixed, dot area = tone.
+HT_BLUR = 0.42                 # Gaussian sigma, as a fraction of the pitch
+HT_EDGE = 0.60                 # silhouette softening, fraction of the pitch
+HT_EDGE_GAIN = 1.6             # how fast dots regain full size inside the edge
+# Elliptical fade (cx, cy, rx, ry as grid fractions, inner radius): the bust
+# dissolves in an arc instead of stopping on the bottom row of the grid.
+HT_VIGNETTE = (0.50, 0.38, 0.64, 0.66, 0.72)
+
+
+def halftone(ink: np.ndarray, mask: np.ndarray, pitch: float,
+             white: float, gamma: float) -> np.ndarray:
+    """Hex-lattice samples as rows of (gx, gy, tone), in grid-cell units.
+
+    pitch is the lattice spacing in grid cells. Tone is in [0, 1]: dot density
+    of the ink grid, so it means "lit" in dark mode and "ink" in light mode.
+    The tone percentile `white` maps to the largest dot, then `gamma` shapes
+    the midtones (above 1 holds a bright face back from one solid blob).
+    """
+    tone = ndimage.gaussian_filter(ink.astype(np.float64), HT_BLUR * pitch)
+    soft = ndimage.gaussian_filter(mask.astype(np.float64), HT_EDGE * pitch)
+
+    row_h = pitch * np.sqrt(3) / 2
+    pts = []
+    for j, gy in enumerate(np.arange(row_h / 2, GRID_H - 1, row_h)):
+        x0 = pitch / 2 + (pitch / 2 if j % 2 else 0)
+        pts += [(gx, gy) for gx in np.arange(x0, GRID_W - 1, pitch)]
+    pts = np.array(pts)
+
+    at = [pts[:, 1], pts[:, 0]]
+    t = ndimage.map_coordinates(tone, at, order=1)
+    m = np.clip(ndimage.map_coordinates(soft, at, order=1) * HT_EDGE_GAIN, 0, 1)
+
+    cx, cy, rx, ry, inner = HT_VIGNETTE
+    dist = np.hypot((pts[:, 0] / GRID_W - cx) / rx, (pts[:, 1] / GRID_H - cy) / ry)
+    k = np.clip((dist - inner) / (1 - inner), 0, 1)
+    fade = 1 - k * k * (3 - 2 * k)
+
+    # Blurred dither tops out well below 1 (few cells are solid ink), so
+    # stretch it until the brightest few percent reach the largest dot.
+    v = t * m * fade
+    v = np.clip(v / np.percentile(v[v > 0.02], white), 0, 1) ** gamma
+    return np.column_stack([pts, v])
+
+
 def _debug():
     DEBUG_DIR.mkdir(exist_ok=True)
     data = build(force=True)

@@ -15,14 +15,21 @@ hand-edit the SVGs -- change the data below and re-run:
 
 Design notes
 ------------
-* Left panel is a 1-bit dithered portrait (see portrait.py) drawn as horizontal
-  <path> runs with shape-rendering="crispEdges" -- never font glyphs, they mush
-  below ~2px.
-* Portrait quality needs ~17k dots; living per-dot motion needs ~1k. Those are
+* Left panel is an amplitude-modulated halftone. The cached 1-bit dither (see
+  portrait.py) is low-passed back to tone and re-screened on a hex lattice
+  PITCH px apart, dot area proportional to tone. Drawing the dither 1:1 fails
+  at README scale (~0.76x): each cell lands on about one screen pixel and the
+  shirt resamples into moire bars.
+* Each dot is a zero-length round-capped segment ("M x y h0"), one <path> per
+  radius level, so a dot costs ~13 bytes instead of a <circle>. Never font
+  glyphs, they mush below ~2px.
+* A faint pattern-filled lattice sits under the portrait, so the panel reads as
+  an unlit dot-matrix display while the travellers draw their glyphs.
+* Portrait quality needs ~4k dots; living per-dot motion needs ~1k. Those are
   incompatible in one layer, so there are two: a dense portrait that dissolves
   in drift bands, and a sparse traveller swarm that morphs between three
   glyphs. Travellers stay hidden during the portrait phase, otherwise their
-  thicker dots crowd the fine dither.
+  dots crowd the halftone.
 * Drift is a linear function of position, so quantising it into bands would
   mathematically recreate a square grid and the dissolve would look blocky.
   Per-dot noise (sigma 4) is added before grouping; see DRIFT_NOISE.
@@ -57,6 +64,11 @@ N_DRIFT_BANDS = 94
 DRIFT_FRACTION = 0.42        # how far a band travels toward the first glyph
 DRIFT_NOISE = 4.0            # sigma, in banner px -- breaks the grid trap
 
+PITCH = 4.3                  # halftone lattice spacing, banner px
+HT_LEVELS = 10               # radius levels, one <path> each per group
+R_MAX = 0.48 * PITCH         # largest dot; hex neighbours sit PITCH apart
+R_MIN = 0.11 * PITCH         # smaller dots are dropped rather than drawn as specks
+
 # loop timeline, seconds
 T_PORTRAIT, T_GLYPH, T_TRANS = 3.0, 2.0, 1.3
 INTRO_DUR, INTRO_STAGGER, INTRO_FADE = 0.6, 1.98, 0.15
@@ -77,18 +89,23 @@ DARK = dict(
     name="dark",
     bg="#0D1117", panel="#0F1626", border="#1F2A3C",
     label="#70A5FD", dim="#5A6785", value="#C9D1D9", leader="#4A5878",
-    accent="#38BDAE", dots="#BF91F3", ambient="#2A3550", live="#F7768E",
+    accent="#38BDAE", dots="#BF91F3", ambient="#222E4A", live="#F7768E",
     pill_bg="#BF91F3", pill_fg="#0D1117",
     chrome=("#F7768E", "#E0AF68", "#9ECE6A"),
+    # halftone: lit dots grow and brighten together, staying in the brand hue.
+    # tone = (percentile mapped to the largest dot, midtone gamma)
+    ramp=("#9877E3", "#BF91F3", "#E2CDFF"), glow=0.07, tone=(95, 0.90),
 )
 
 LIGHT = dict(
     name="light",
     bg="#FFFFFF", panel="#F6F8FA", border="#D8DEE6",
     label="#2563EB", dim="#6B7280", value="#1F2328", leader="#B6C0CE",
-    accent="#0F766E", dots="#7C3AED", ambient="#CBD5E1", live="#DC2626",
+    accent="#0F766E", dots="#7C3AED", ambient="#DCE2EA", live="#DC2626",
     pill_bg="#7C3AED", pill_fg="#FFFFFF",
     chrome=("#FF5F57", "#FEBC2E", "#28C840"),
+    # ink dots grow and darken together; the faded shirt needs its midtones lifted
+    ramp=("#8B5CF6", "#7C3AED", "#5B21B6"), glow=0.05, tone=(90, 0.80),
 )
 
 
@@ -106,9 +123,9 @@ ROWS = [
     ("Education",     "B.Tech Information Technology  ·  CGPA 8.41 / 10",  False),
     ("Focus",         "VLM evaluation  ·  distributed GPU execution",      False),
     ("Status",        "Open to research supervision  ·  2027 intake",      False),
-    ("Papers",        "ICCET 2026 published  ·  NeurIPS WS in review",     True),
+    ("Papers",        "ICCET 2026  ·  NeurIPS 2026 VLM4RWD  ·  arXiv",     True),
     ("Artifacts",     "PyPI  ·  HF dataset  ·  2 Zenodo DOIs",             False),
-    ("Upstream",      "LangChain  ·  EleutherAI  ·  HF  ·  Future-AGI",    False),
+    ("Upstream",      "Future-AGI  ·  CALLE-AI  ·  EleutherAI  ·  HF",     False),
     ("Core.Lang",     "Python  ·  Java  ·  C++  ·  Go  ·  Kotlin  ·  TS",  True),
     ("Core.ML",       "PyTorch  ·  Transformers  ·  TensorRT  ·  QLoRA",   False),
     ("Core.Infra",    "AWS  ·  GCP  ·  Docker  ·  Actions  ·  Tailscale",  False),
@@ -298,17 +315,75 @@ def portrait_geometry():
     return cell, ox, oy
 
 
-def run_path(run, cell, ox, oy):
-    x0, y, length = run
-    x = ox + (x0 + 0.5) * cell
-    yy = oy + (y + 0.5) * cell
-    return f"M{x:.2f} {yy:.2f}h{(length - 1) * cell:.2f}"
+def level_radius(k):
+    return R_MAX * np.sqrt((np.asarray(k) + 0.5) / HT_LEVELS)
 
 
-def left_panel(p, runs, glyphs):
+def level_colour(p, k):
+    """Three-stop ramp across the radius levels."""
+    t = k / (HT_LEVELS - 1)
+    lo, mid, hi = p["ramp"]
+    a, b, u = (lo, mid, t * 2) if t < 0.5 else (mid, hi, t * 2 - 1)
+    rgb = [round(int(a[i:i + 2], 16) * (1 - u) + int(b[i:i + 2], 16) * u)
+           for i in (1, 3, 5)]
+    return "#%02X%02X%02X" % tuple(rgb)
+
+
+def portrait_dots(p, ink, mask):
+    """Halftone dots in banner px, as rows of (x, y, level)."""
+    cell, ox, oy = portrait_geometry()
+    s = pt.halftone(ink, mask, PITCH / cell, *p["tone"])
+    level = np.minimum((s[:, 2] * HT_LEVELS).astype(int), HT_LEVELS - 1)
+    dots = np.column_stack([ox + (s[:, 0] + 0.5) * cell,
+                            oy + (s[:, 1] + 0.5) * cell, level])
+    return dots[level_radius(level) >= R_MIN]
+
+
+def dot_paths(p, dots):
+    """One round-capped <path> per radius level present in `dots`."""
+    out = []
+    for k in np.unique(dots[:, 2]).astype(int):
+        d = "".join(f"M{x:.1f} {y:.1f}h0" for x, y, _ in dots[dots[:, 2] == k])
+        out.append(f'<path stroke="{level_colour(p, k)}" '
+                   f'stroke-width="{2 * level_radius(k):.2f}" d="{d}"/>')
+    return "".join(out)
+
+
+def substrate(p):
+    """Unlit lattice under the portrait, on the same hex grid as the dots."""
+    cell, ox, oy = portrait_geometry()
+    row_h = PITCH * math.sqrt(3) / 2
+    x0, y0 = ox + 0.5 * cell, oy + 0.5 * cell        # top-left tile corner
+    fx0, fy0, fx1, fy1 = FIELD
+    r = 0.12 * PITCH
+    return [
+        '<defs>',
+        f'<pattern id="lattice" x="{x0:.2f}" y="{y0:.2f}" width="{PITCH}" '
+        f'height="{2 * row_h:.3f}" patternUnits="userSpaceOnUse" fill="{p["ambient"]}">'
+        f'<circle cx="{PITCH / 2}" cy="{row_h / 2:.3f}" r="{r:.2f}"/>'
+        f'<circle cx="0" cy="{1.5 * row_h:.3f}" r="{r:.2f}"/>'
+        f'<circle cx="{PITCH}" cy="{1.5 * row_h:.3f}" r="{r:.2f}"/></pattern>',
+        '<radialGradient id="fade" cx="50%" cy="46%" r="58%">'
+        '<stop offset="0.55" stop-color="#fff"/><stop offset="1" stop-color="#000"/>'
+        '</radialGradient>',
+        f'<mask id="vignette"><rect x="{fx0}" y="{fy0}" width="{fx1 - fx0}" '
+        f'height="{fy1 - fy0}" fill="url(#fade)"/></mask>',
+        f'<radialGradient id="glow" cx="50%" cy="42%" r="50%">'
+        f'<stop offset="0" stop-color="{p["dots"]}" stop-opacity="{p["glow"]}"/>'
+        f'<stop offset="1" stop-color="{p["dots"]}" stop-opacity="0"/></radialGradient>',
+        '</defs>',
+        f'<rect x="{fx0}" y="{fy0}" width="{fx1 - fx0}" height="{fy1 - fy0}" '
+        f'fill="url(#glow)"/>',
+        f'<rect x="{fx0}" y="{fy0}" width="{fx1 - fx0}" height="{fy1 - fy0}" '
+        f'fill="url(#lattice)" mask="url(#vignette)">'
+        f'<animate attributeName="opacity" values="0.6;1;0.6" dur="7s" '
+        f'repeatCount="indefinite"/></rect>',
+    ]
+
+
+def left_panel(p, dots, glyphs):
     """Portrait (intro layer + drift-band loop layer) plus traveller swarm."""
     A, B, C = glyphs
-    cell, ox, oy = portrait_geometry()
     out = []
 
     out.append(
@@ -317,24 +392,12 @@ def left_panel(p, runs, glyphs):
     )
     out.append(text(LP_X + PAD, PANEL_T + 24, "VISUAL.MAP", 12, p["accent"],
                     weight=700, lock=False, spacing="2.2"))
+    out += substrate(p)
 
-    # ambient texture behind the portrait
-    arng = random.Random(SEED + 7)
-    fx0, fy0, fx1, fy1 = FIELD
-    out.append(f'<g fill="{p["ambient"]}" opacity="0.5">'
-               f'<animate attributeName="opacity" values="0.25;0.55;0.25" dur="7s" '
-               f'repeatCount="indefinite"/>')
-    for _ in range(130):
-        out.append(f'<circle cx="{arng.uniform(fx0-4, fx1+4):.1f}" '
-                   f'cy="{arng.uniform(fy0-4, fy1+4):.1f}" '
-                   f'r="{arng.uniform(0.7, 1.4):.2f}"/>')
-    out.append('</g>')
-
-    stroke = (f'stroke="{p["dots"]}" stroke-width="{cell:.3f}" fill="none" '
-              f'stroke-linecap="square" shape-rendering="crispEdges"')
+    stroke = 'fill="none" stroke-linecap="round"'
 
     # ---- intro layer: 60 interleaved random groups -------------------------
-    order = list(range(len(runs)))
+    order = list(range(len(dots)))
     random.Random(SEED + 13).shuffle(order)
     out.append(
         f'<g {stroke}><animate attributeName="opacity" from="1" to="0" '
@@ -344,24 +407,22 @@ def left_panel(p, runs, glyphs):
         members = order[gi::N_INTRO_GROUPS]
         if not members:
             continue
-        d = "".join(run_path(runs[i], cell, ox, oy) for i in members)
         begin = round(gi * INTRO_STAGGER / N_INTRO_GROUPS, 3)
         out.append(
             f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" '
             f'begin="{begin}s" dur="{INTRO_DUR}s" fill="freeze"/>'
-            f'<path d="{d}"/></g>'
+            f'{dot_paths(p, dots[members])}</g>'
         )
     out.append('</g>')
 
     # ---- loop layer: 94 drift bands ---------------------------------------
-    centres = np.array([[ox + (r[0] + (r[2] - 1) / 2 + 0.5) * cell,
-                         oy + (r[1] + 0.5) * cell] for r in runs])
+    centres = dots[:, :2]
     target = A.mean(axis=0)
     drift = (target - centres) * DRIFT_FRACTION
 
     nrng = np.random.default_rng(SEED + 29)
-    score = np.hypot(*(centres - target).T) + nrng.normal(0, DRIFT_NOISE, len(runs))
-    band = np.argsort(np.argsort(score)) * N_DRIFT_BANDS // len(runs)
+    score = np.hypot(*(centres - target).T) + nrng.normal(0, DRIFT_NOISE, len(dots))
+    band = np.argsort(np.argsort(score)) * N_DRIFT_BANDS // len(dots)
 
     out.append(
         f'<g {stroke} opacity="0"><animate attributeName="opacity" '
@@ -372,14 +433,13 @@ def left_panel(p, runs, glyphs):
         idx = np.flatnonzero(band == b)
         if not len(idx):
             continue
-        d = "".join(run_path(runs[i], cell, ox, oy) for i in idx)
         dx, dy = drift[idx].mean(axis=0)
         out.append(
             f'<g><animateTransform attributeName="transform" type="translate" '
             f'values="0 0;0 0;{dx:.1f} {dy:.1f};{dx:.1f} {dy:.1f};0 0" '
             f'keyTimes="{KT_PORTRAIT}" begin="{INTRO_END:.2f}s" dur="{LOOP}s" '
             f'calcMode="spline" keySplines=".4 0 .2 1;.4 0 .2 1;0 0 1 1;.4 0 .2 1" '
-            f'repeatCount="indefinite"/><path d="{d}"/></g>'
+            f'repeatCount="indefinite"/>{dot_paths(p, dots[idx])}</g>'
         )
     out.append('</g>')
 
@@ -402,7 +462,7 @@ def left_panel(p, runs, glyphs):
         )
     out.append('</g>')
 
-    caption = f"1-bit dither  ·  {pt.GRID_W} × {pt.GRID_H} grid  ·  {sum(r[2] for r in runs):,} dots"
+    caption = f"AM halftone  ·  {PITCH:g} px hex matrix  ·  {len(dots):,} dots"
     out.append(text(LP_X + PAD, PANEL_B - 15, caption, 11.5, p["dim"], lock=False))
     return out
 
@@ -451,7 +511,7 @@ def right_panel(p):
     return out
 
 
-def banner(p, runs, glyphs):
+def banner(p, dots, glyphs):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" role="img" '
@@ -471,7 +531,7 @@ def banner(p, runs, glyphs):
     out.append(f'<line x1="0" y1="{BAR_H}" x2="{W}" y2="{BAR_H}" '
                f'stroke="{p["border"]}"/>')
 
-    out += left_panel(p, runs, glyphs)
+    out += left_panel(p, dots, glyphs)
     out += right_panel(p)
     out.append('</svg>')
     return "\n".join(out)
@@ -519,13 +579,13 @@ def main():
     glyphs = build_glyphs()
     print(f"loop {LOOP:.1f}s  intro {INTRO_END:.2f}s  keyTimes {KT_PORTRAIT}")
     for p in (DARK, LIGHT):
-        runs = pt.runs(ink[p["name"]])
-        for kind, svg in (("banner", banner(p, runs, glyphs)),
+        dots = portrait_dots(p, ink[p["name"]], ink["mask"])
+        for kind, svg in (("banner", banner(p, dots, glyphs)),
                           ("footer", footer(p))):
             path = OUT / f'{kind}-{p["name"]}.svg'
             path.write_text(svg, encoding="utf-8")
             print(f'{path.name:20s} {len(svg.encode("utf-8"))/1024:8.1f} KB'
-                  f'{"  " + str(len(runs)) + " runs" if kind == "banner" else ""}')
+                  f'{"  " + str(len(dots)) + " dots" if kind == "banner" else ""}')
 
 
 if __name__ == "__main__":
